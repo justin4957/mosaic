@@ -1,0 +1,27 @@
+# MOSAIC .gitignore
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Logs
+*.log
+
+# Secrets (never commit)
+.env
+.env.local
+secrets/
+*.key
+*.pem
